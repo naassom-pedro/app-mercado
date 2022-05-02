@@ -10,4 +10,4 @@
 
 <code>yarn dev</code>
 
-<h3>Onde o mesmo, provavelmente abrirá com a porta <code>https://localhost:3000</code> pela primeira vez.</h3>
+<h3>Onde o mesmo, provavelmente abrirá com a porta <code>http://localhost:3000/</code> pela primeira vez.</h3>
