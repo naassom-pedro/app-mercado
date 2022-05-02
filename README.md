@@ -11,8 +11,7 @@
 <code>yarn dev</code>
 
 <h3>Onde o mesmo, provavelmente abrirá com a porta <code>http://localhost:3000/</code> pela primeira vez.</h3>
-![1](https://user-images.githubusercontent.com/84052873/166234955-699fa49c-86bf-4527-907d-bf7c6f6c4e02.png)
 
-<div>
-  <img src="![1](https://user-images.githubusercontent.com/84052873/166234955-699fa49c-86bf-4527-907d-bf7c6f6c4e02.png)" width="500px"/>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/84052873/166234955-699fa49c-86bf-4527-907d-bf7c6f6c4e02.png"/>
 </div>
