@@ -1,6 +1,6 @@
 {
   "name": "app-mercado",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://naassom-pedro.github.io/app-mercado/",
   "scripts": {
