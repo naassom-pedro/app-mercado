@@ -1,14 +1,12 @@
 {
   "name": "app-mercado",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
-  "homepage": "https://naassom-pedro.github.io/app-mercado/",
+  "homepage": "github-page/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.0.0",
