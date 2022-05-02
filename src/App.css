@@ -1,0 +1,143 @@
+/* Reset das configurações padrões do navegador */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Variáveis para paleta de cores do projeto */
+:root {
+  --cor1: #ff914d;
+  --cor2: #808080;
+  --cor3: #000000;
+}
+
+main {
+  height: 100vh;
+}
+
+.header {
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 80%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 150px;
+}
+
+.cart {
+  height: 30px;
+  cursor: pointer;
+}
+
+.cart:hover {
+  height: 35px;
+}
+
+.Tabs {
+  width: 80%;
+  margin: 10px auto 1.5rem;
+  padding: 2rem 1rem;
+  color: var(--cor2);
+
+
+  @media (max-width: 769px) {
+    padding: 2rem 0;
+  }
+}
+
+ul.nav {
+  width: 100%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--cor1);
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+ul.nav li {
+  padding: 1rem;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.7s;
+
+}
+
+ul.nav li.active {
+  color: var(--cor1);
+}
+
+.basket-icon {
+  height: 40px;
+  margin-right: 15px;
+
+}
+
+.lista-item {
+  display: flex;
+  align-items: center;
+
+}
+
+.lista-item h1 {
+  width: 150px;
+  font-size: 1.2rem;
+  color: var(--cor3);
+  font-weight: normal;
+}
+
+.lista-itens {
+  display: flex;
+  padding: 15px;
+  margin: 10px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.123);
+  justify-content: space-between;
+}
+
+.btns-itens>#btn-item-remove {
+  border-radius: 50%;
+}
+
+.btns-itens>#btn-item-add {
+  border-radius: 7px 7px 7px 2px;
+}
+
+.btn-item {
+  color: var(--cor2);
+  margin: 0 5px;
+  border: solid 2px var(--cor2);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-item:active {
+  border: none;
+  background-color: var(--cor1);
+}
+
+
+.Footer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 10px;
+
+}
